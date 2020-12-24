@@ -1,13 +1,7 @@
-readline = require("readline-sync");
-const obj = {
-  "a" : 1,
-  "b" : 45,
-  ram: 56
-}
-function printObj(){
-  console.log(obj["a"], obj["ram"]);
-}
+rSync = require("readline-sync");
 
-//const n= readline.question("Enter number : ");
-printObj();
+
+
+let name = rSync.question("Enter your name : ")
+console.log(name)
 
