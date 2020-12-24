@@ -30,9 +30,16 @@ function isPrime(num){
   return flag;
 }
 
+obj = {
+  name : "rushi",
+  std : "btech",
+  div : "it"
+}
+
+
+let arr = Object.keys(obj)
+console.log(obj['name'])
 let i = 0;
-for(i=9;i<=100;i++){
-  if(isPrime(i)){
-    console.log(i);
-  }
+for(i=0;i<arr.length;i++){
+    console.log(arr[i] + " = " + obj[arr[i]]);
 }
