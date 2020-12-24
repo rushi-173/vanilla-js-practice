@@ -1,15 +1,15 @@
 readline = require("readline-sync");
 
-function isFive(num){
-  console.log("Hello World");
-  if(num==5){
-    console.log("The number is 5");
-  }
-  else{
-    console.log("The number is not 5");
+function printOdd(num){
+  let i=0;
+  for(i=0; i<num; i++){
+    if(i%2!=0){
+      console.log(i);
+      console.log(" ");
+    }
   }
 }
 
 const n= readline.question("Enter number : ");
-isFive(n);
+printOdd(n);
 
