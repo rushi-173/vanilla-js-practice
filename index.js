@@ -20,9 +20,19 @@ rSync = require("readline-sync");
 //   console.log("Odd");
 // }
 
+function isPrime(num){
+  let flag = 1;
+  for(let i = 2; i<num; i++){
+    if(num%i==0){
+      flag = 0;
+    }
+  }
+  return flag;
+}
+
 let i = 0;
-for(i=0;i<=10;i++){
-  if(i%2 != 0){
+for(i=9;i<=100;i++){
+  if(isPrime(i)){
     console.log(i);
   }
 }
