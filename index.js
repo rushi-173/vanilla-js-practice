@@ -12,10 +12,15 @@ rSync = require("readline-sync");
 // let name = rSync.question("Enter your name : ")
 // show(name)
 
-let num = 12;
-if(num % 2 == 0){
-  console.log("Even")
-}
-else{
-  console.log("Odd");
+// let num = 12;
+// if(num % 2 == 0){
+//   console.log("Even")
+// }
+// else{
+//   console.log("Odd");
+// }
+
+let i = 0;
+for(i=0;i<=10;i++){
+  console.log(i)
 }
