@@ -22,5 +22,7 @@ rSync = require("readline-sync");
 
 let i = 0;
 for(i=0;i<=10;i++){
-  console.log(i)
+  if(i%2 != 0){
+    console.log(i);
+  }
 }
