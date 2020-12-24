@@ -1,0 +1,23 @@
+{
+  "name": "vanilla-js-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushi-173/vanilla-js-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rushi-173/vanilla-js-practice/issues"
+  },
+  "homepage": "https://github.com/rushi-173/vanilla-js-practice#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
